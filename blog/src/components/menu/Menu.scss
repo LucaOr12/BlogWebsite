@@ -25,6 +25,7 @@
     font-weight: 300;
     color: white;
     width: 60%;
+    height: 80%;
 
     li {
       margin-bottom: 25px;
@@ -37,6 +38,61 @@
       &:hover {
         font-weight: 500;
       }
+    }
+  }
+  .icons {
+    display: inline-flex;
+    column-gap: 25px;
+    height: 50px;
+  }
+  .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+  }
+  .icon:hover {
+    outline-offset: 4px;
+  }
+  .icon:hover i {
+    animation: shake 0.25s;
+  }
+  .icon--twitter:hover {
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+  }
+  .icon--linkedin:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+  }
+  .icon--github:hover {
+    background-color: blue;
+    outline-color: blue;
+  }
+
+  @keyframes shake {
+    10% {
+      transform: rotate(15deg);
+    }
+
+    20% {
+      transform: rotate(-15deg);
+    }
+
+    30% {
+      transform: rotate(15deg);
+    }
+
+    40% {
+      transform: rotate(-15deg);
     }
   }
 }

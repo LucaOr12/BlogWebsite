@@ -1,8 +1,8 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/intro";
-import Portfolio from "./components/portfolio/portfolio";
+import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/works";
-import Testimonials from "./components/testimonials/testimonials";
+import Learning from "./components/testimonials/testimonials";
 import Contact from "./components/contact/contact";
 import "./App.scss";
 import { useState } from "react";
@@ -18,7 +18,7 @@ function App() {
         <Intro />
         <Portfolio />
         <Works />
-        <Testimonials />
+        <Learning />
         <Contact />
       </div>
     </div>
