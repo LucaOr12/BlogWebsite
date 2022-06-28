@@ -15,9 +15,9 @@ export default function testimonials() {
         <div className="wrapper">
           <h2>React</h2>
           <h3>
-            It's been a week since i started learnign ReactJs, and this
-            portfolio/Blog Website is what i have been working for now. I have
-            lots of ideas with this new framework.
+            It's been a week since i started learning ReactJs, and this
+            portfolio/Blog Website is what i have been working on for now. I
+            have lots of ideas with this new framework.
           </h3>
         </div>
       </div>

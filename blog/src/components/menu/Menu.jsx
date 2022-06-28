@@ -21,13 +21,25 @@ export default function menu({ menuOpen, setMenuOpen }) {
         </li>
       </ul>
       <div className="icons">
-        <a href="#" className="icon icon--twitter">
+        <a
+          href="https://twitter.com/LucaOrabona1"
+          className="icon icon--twitter"
+          target="_blank"
+        >
           <i className="ri-twitter-line"></i>
         </a>
-        <a href="#" className="icon icon--linkedin">
+        <a
+          href="https://www.linkedin.com/in/luca-orabona-4573461b2/"
+          className="icon icon--linkedin"
+          target="_blank"
+        >
           <i className="ri-linkedin-line"></i>
         </a>
-        <a href="#" className="icon icon--github">
+        <a
+          href="https://github.com/LucaOr12"
+          className="icon icon--github"
+          target="_blank"
+        >
           <i className="ri-github-line"></i>
         </a>
       </div>
