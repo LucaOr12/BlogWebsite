@@ -1,6 +1,6 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/intro";
-import Portfolio from "./components/portfolio/Portfolio";
+import Portfolio from "./components/portfolio/portfolio";
 import Works from "./components/works/works";
 import Learning from "./components/testimonials/testimonials";
 import Contact from "./components/contact/contact";
